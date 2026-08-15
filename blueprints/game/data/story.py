@@ -16,8 +16,27 @@ GAME_INFO = {
 
 INTRODUCTION = (
     "Você foi selecionado para participar do Desafio Trigonométrico, uma "
-    "competição criada para testar raciocínio lógico e conhecimentos em "
-    "funções trigonométricas."
+    "competição criada para testar o raciocínio lógico e os conhecimentos em "
+    "funções trigonométricas. A competição acontece em um grande centro de "
+    "treinamento dividido em 5 áreas, e cada uma delas possui obstáculos e "
+    "desafios matemáticos que devem ser resolvidos corretamente para liberar o "
+    "acesso à próxima fase.\n\n"
+    "No entanto, antes do início da competição, um ex-participante invadiu o "
+    "sistema e bloqueou todas as fases. Agora, para avançar, será necessário "
+    "recuperar os 5 códigos de acesso disponibilizados após os desafios.\n\n"
+    "Seu objetivo é completar todas as fases, responder às perguntas sobre "
+    "seno, cosseno, tangente, secante, cossecante e cotangente e desbloquear "
+    "o sistema para concluir a competição.\n\n"
+    "A cada fase, você enfrentará problemas que exigem atenção, lógica e "
+    "domínio dos conceitos trigonométricos. Ao acertar os desafios, você ganha "
+    "acesso ao próximo setor do centro de treinamento. Mas cuidado: o tempo e a "
+    "precisão serão fundamentais.\n\n"
+    "Caso o jogador tenha dificuldade, poderá receber auxílio com as dicas; "
+    "porém, quanto mais dicas utilizar, menos pontos receberá. Ele terá até 3 "
+    "chances de errar em cada etapa. Caso ultrapasse esse limite, precisará "
+    "reiniciar a fase e começar novamente.\n\n"
+    "A missão final é recuperar todos os códigos, concluir as 5 áreas e provar "
+    "que você domina as funções trigonométricas."
 )
 
 STAGE_STORIES = {

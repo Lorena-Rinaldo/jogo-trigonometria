@@ -1,1 +1,1 @@
-# Marca o módulo de schemas e validações como um pacote Python.
+"""Marca o módulo de schemas e validações como um pacote Python."""

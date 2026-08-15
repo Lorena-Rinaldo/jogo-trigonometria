@@ -1,1 +1,1 @@
-# Marca o módulo de utilitários como um pacote Python.
+"""Marca o módulo de utilitários como um pacote Python."""

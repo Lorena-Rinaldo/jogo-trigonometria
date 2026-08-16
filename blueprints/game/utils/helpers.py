@@ -30,6 +30,7 @@ def sanitize_exercise(exercise):
         "id": exercise["id"],
         "stage_id": exercise["stage_id"],
         "question_number": exercise.get("question_number", ((exercise["id"] - 1) % 2) + 1),
+        "instruction": exercise.get("instruction", ""),
         "question": exercise["question"],
         "options": exercise["options"],
         "hints_count": len(exercise["hints"]),

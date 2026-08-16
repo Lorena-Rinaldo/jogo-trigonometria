@@ -4,6 +4,7 @@ EXERCISES = [
     {
         "id": 1,
         "stage_id": 1,
+        "instruction": "Nesta fase, utilize a tabela de ângulos notáveis (30°, 45° e 60°). Lembre-se que o seno de um ângulo em um triângulo retângulo é a razão entre o cateto oposto e a hipotenusa. Tente visualizar a primeira linha da tabela trigonométrica para encontrar o valor solicitado.",
         "question": "Qual é o valor de sen(30°)?",
         "options": [
             {"id": "a", "text": "0"},
@@ -21,6 +22,7 @@ EXERCISES = [
     {
         "id": 2,
         "stage_id": 1,
+        "instruction": "Nesta questão, aplique o conceito de ângulos complementares. Quando dois ângulos somam 90°, o seno de um é igual ao cosseno do outro. Pense em qual ângulo somado a 60° resulta em 90° e use essa relação para encontrar o cosseno.",
         "question": "Qual é o valor de cos(60°)?",
         "options": [
             {"id": "a", "text": "1/2"},
@@ -38,6 +40,7 @@ EXERCISES = [
     {
         "id": 3,
         "stage_id": 2,
+        "instruction": "Nesta etapa, identifique a função inversa (recíproca) correta. Lembre-se que cada função principal (seno, cosseno e tangente) possui uma correspondente que é calculada como 1 dividido por ela. Analise os nomes das funções para associar a secante à sua base.",
         "question": "A secante é o inverso de qual função?",
         "options": [
             {"id": "a", "text": "seno"},
@@ -55,6 +58,7 @@ EXERCISES = [
     {
         "id": 4,
         "stage_id": 2,
+        "instruction": "Para resolver esta questão, siga dois passos: primeiro, encontre o valor do seno para o ângulo dado. Depois, aplique a definição de cossecante, que consiste em inverter o numerador e o denominador desse valor.",
         "question": "Qual é o valor de cossec(30°)?",
         "options": [
             {"id": "a", "text": "raiz de 3"},
@@ -72,6 +76,7 @@ EXERCISES = [
     {
         "id": 5,
         "stage_id": 3,
+        "instruction": "O foco aqui é o período da função. O período é a distância no eixo x necessária para que a onda do seno complete um movimento de subida e descida total e volte a se repetir. Pense no valor de uma volta completa no círculo trigonométrico em radianos.",
         "question": "Qual é o período da função sen(x)?",
         "options": [
             {"id": "a", "text": "pi"},
@@ -89,6 +94,7 @@ EXERCISES = [
     {
         "id": 6,
         "stage_id": 3,
+        "instruction": "Lembre-se da relação entre tangente e cotangente. Primeiro, identifique quanto vale a tangente de 45° (ângulo onde os dois catetos são iguais). Como a cotangente é o inverso da tangente, aplique a inversão sobre esse valor.",
         "question": "Qual é o valor da cotg(45°)?",
         "options": [
             {"id": "a", "text": "1"},
@@ -106,6 +112,7 @@ EXERCISES = [
     {
         "id": 7,
         "stage_id": 4,
+        "instruction": "Nesta questão, utilize a identidade da cossecante. Se você já possui o valor do seno, basta realizar o cálculo da função recíproca (1 dividido pelo valor dado). Foque na operação de inversão numérica para chegar ao resultado.",
         "question": "Sabendo que sen(x) = 1/2, com x no primeiro quadrante, qual é o valor de cossec(x)?",
         "options": [
             {"id": "a", "text": "1/2"},
@@ -123,6 +130,7 @@ EXERCISES = [
     {
         "id": 8,
         "stage_id": 4,
+        "instruction": "Para encontrar a cotangente a partir da tangente, aplique a regra das funções inversas. Se a tangente tem um valor X, a cotangente terá o valor de 1/X. Utilize o valor informado na questão para realizar essa divisão simples.",
         "question": "Sabendo que tg(x) = 1, e que x pertence ao primeiro quadrante, qual é o valor de cotg(x)?",
         "options": [
             {"id": "a", "text": "0"},
@@ -140,6 +148,7 @@ EXERCISES = [
     {
         "id": 9,
         "stage_id": 5,
+        "instruction": "Nesta aplicação prática, desenhe mentalmente um triângulo retângulo. A rampa representa a hipotenusa e a altura desejada é o cateto oposto ao ângulo. Escolha a razão trigonométrica que relaciona esses dois lados e multiplique o comprimento da rampa pelo valor do seno.",
         "question": "Uma rampa forma 30° com o solo e tem 8 metros de comprimento. Qual altura ela alcança? Considere sen(30°) = 0,5.",
         "options": [
             {"id": "a", "text": "2 m"},
@@ -157,6 +166,7 @@ EXERCISES = [
     {
         "id": 10,
         "stage_id": 5,
+        "instruction": "Identifique os componentes do problema: o comprimento da escada é a hipotenusa e a parede representa o cateto oposto ao ângulo formado com o chão. Utilize a fórmula do seno para calcular a altura, multiplicando a medida da escada pelo valor do seno de 60°.",
         "question": "Uma escada de 10 metros está apoiada em uma parede, formando 60° com o chão. Qual altura aproximada ela alcança? Considere sen(60°) = 0,866.",
         "options": [
             {"id": "a", "text": "5,05 m"},

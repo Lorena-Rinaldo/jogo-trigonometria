@@ -14,6 +14,7 @@ from blueprints.game.services.progress_service import (
 from blueprints.game.services.player_service import get_player, get_player_by_id
 from blueprints.game.services.score_service import calculate_question_points, get_classification
 from blueprints.game.utils.helpers import (
+    check_answer,
     find_exercise_by_id,
     find_stage_by_id,
     normalize_text,
@@ -121,13 +122,17 @@ def answer_question(player_name, question_id, selected_option):
             "progress": progress,
         }, 200
 
-    is_correct = selected_option.lower().strip() == exercise["correct_option"]
+    normalized_selected_option = selected_option.lower().strip()
+    answer_result = check_answer(exercise, normalized_selected_option)
+    is_correct = answer_result["is_correct"]
 
     if not is_correct:
         progress = add_wrong_answer(player_name)
         return {
             "correct": False,
             "message": "Resposta incorreta. Tente novamente.",
+            "feedback": answer_result["message"],
+            "selected_option": normalized_selected_option,
             "remaining_errors": max(0, 3 - progress["wrong_answers"]),
             "progress": progress,
         }, 200
@@ -143,6 +148,8 @@ def answer_question(player_name, question_id, selected_option):
     return {
         "correct": True,
         "message": "Resposta correta!",
+        "feedback": answer_result["message"],
+        "selected_option": normalized_selected_option,
         "earned_points": points,
         "answer": exercise["answer"],
         "stage_completed": stage_completed,

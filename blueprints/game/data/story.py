@@ -34,7 +34,7 @@ INTRODUCTION = (
     "Caso o jogador tenha dificuldade, poderá receber auxílio com as dicas; "
     "porém, quanto mais dicas utilizar, menos pontos receberá. Ele terá até 3 "
     "chances de errar em cada etapa. Caso ultrapasse esse limite, precisará "
-    "reiniciar a fase e começar novamente.\n\n"
+    "reiniciar o jogo e começar novamente.\n\n"
     "A missão final é recuperar todos os códigos, concluir as 5 áreas e provar "
     "que você domina as funções trigonométricas."
 )
